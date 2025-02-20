@@ -1,0 +1,374 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.contain{
+    width: 100%;
+}
+
+
+/* BARRA-N */
+
+
+.navbar{
+    width: 100%;
+    margin-bottom: 10px;
+    position: fixed;
+}
+.collapse{
+    display: flex;
+    justify-content: end;
+}
+
+
+/* HEADER */
+
+
+header{
+    width: 100%;
+}
+.img{
+    width: 100%;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url(LOGOS/WEB_dev.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.conte-img{
+    width: 80%;
+    height: 90%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 70px;
+}
+.bienvenidos{
+    width: 100%;
+    height: 114px;
+}
+.bvd{
+    font-size: 2.5rem;
+}
+h1{
+    font-size: 2rem;
+    margin: 0;
+}
+h2{
+    font-size: 2rem;
+}
+p{
+    font-size: 0.8rem;
+}
+.explora{
+    width: 100%;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.explo{
+    width: 100%;
+    height: 25%;
+}
+
+
+/* HABILIDADES */
+
+
+h2, h3, p{
+    margin: 0;
+}
+.habilidades{
+    padding: 8% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.habili{
+    width: 90%;
+    display: flex;
+    margin-bottom: 20px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.conte-cart{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cart{
+    width: 100%;
+    height: auto;
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.conte{
+    width: 90%;
+    height: auto;
+    border: 1px solid rgb(116, 116, 116);
+    border-radius: 8px;
+    padding: 18px;
+    box-shadow: 5px 5px 10px gray;
+}
+.conte:hover{
+    box-shadow:5px 5px 10px  rgba(0, 204, 255, 0.493);
+    transform: scale(1.1);
+    transition-duration: 700ms;
+}
+.img-pixel{
+    width: 25px;
+    height: 25px;
+}
+h3{
+    margin-bottom: 10px;
+}
+
+
+/* COLEGAS */
+
+
+.colegas{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 204, 255, 0.158);
+    border-radius: 10px;
+    padding: 0 0 10% 0;
+}
+.coleg{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.text-coleg{
+    width: 100%;
+    height: 160px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+.opinion{
+    width: 100%;
+    height: auto;
+}
+.img-p{
+    width: auto;
+    height: 180px;
+    margin: 8px;
+}
+.img-p:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.img-per1{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(LOGOS/Carlos\ Lopez.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    box-shadow: 5px 5px 10px gray;
+}
+.img-per2{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(LOGOS/Maria\ Gonzalez.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    box-shadow: 5px 5px 10px gray;
+}
+.img-per3{
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)),url(LOGOS/Pedro\ Martinez.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    box-shadow: 5px 5px 10px gray;
+}
+.descriccion{
+    color: white;
+    padding: 8px;
+}
+.nombre{
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+
+/* CONTACTO */
+
+
+.contacto{
+    width: 100%;
+    padding: 10% 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contac-cont{
+    width: 85%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cont-p{
+    margin-bottom: 16px;
+}
+.ubic{
+    width: 90%;
+    margin: 16px 0 0 0;
+    padding: 0 0 0 16px;
+    border-left:1px solid gray;
+}
+.pais{
+    font-size: 0.7rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.contactos-logos{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conte-logos{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo1{
+    width: 128px;
+    height: 128px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.logo-pixel{
+    width: 80px;
+    height: 80px;
+}
+.l-f:hover{
+    filter: drop-shadow(0 0 10px rgb(0, 110, 255));
+    transform: scale(1.6);
+    transition-duration: 700ms;
+}
+.l-i:hover{
+    filter: drop-shadow(0 0 10px rgb(212, 0, 255));
+    transform: scale(1.6);
+    transition-duration: 700ms;
+}
+.l-w:hover{
+    filter: drop-shadow(0 0 10px rgb(0, 255, 13));
+    transform: scale(1.6);
+    transition-duration: 700ms;
+}
+.l-h:hover{
+    filter: drop-shadow(0 0 10px blue);
+    transform: scale(1.6);
+    transition-duration: 700ms;
+}
+
+
+/* FOOTER */
+
+
+footer{
+    width: 100%;
+    height: 25vh;
+    background-color:  rgba(0, 204, 255, 0.158);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.refe{
+    width: 80%;
+    color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+@media (min-width:600px){
+    .conte-img{
+        margin-top: 90px;
+    }
+    .bvd{
+        font-size: 5rem;
+    }
+   .conte-cart{
+    flex-wrap: wrap;
+    flex-direction: row;
+   }
+    .cart{
+        width: 300px;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+    }
+    .conte:hover{
+        box-shadow:5px 5px 10px  rgba(0, 204, 255, 0.493);
+        transform: scale(1.2);
+        transition-duration: 700ms;
+    }
+    .opinion{
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        display: flex;
+        flex-direction: row;
+    }
+    .conte-logos{
+        display: flex;
+        flex-direction: row;
+    }
+    .img-p:hover{
+        transform: scale(1.8, 1.2);
+        transition-duration: 1s;
+    }
+    
+}
