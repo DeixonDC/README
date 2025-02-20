@@ -1,4 +1,4 @@
-# REAME
+# README
 <h1 align="left">Hola 👋 Soy Programdor Front-End</h1>
 
 ###
